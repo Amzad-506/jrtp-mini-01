@@ -3,7 +3,7 @@ package com.example.service;
 import com.example.beans.ContactBean;
 
 public interface ContactServ {
-//save
+//save fot 
 	public String addContact(ContactBean acb);
 	
 	
