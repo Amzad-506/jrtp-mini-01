@@ -10,9 +10,9 @@ public class ContactServImpl implements ContactServ{
 	@Autowired
 	private ContactRepo cr;
 
+	@SuppressWarnings("unused")
 	@Override
 	public String addContact(ContactBean acb) {
-		@SuppressWarnings("unused")
 		String msg;
 		ContactBean save = cr.save(acb);
 		if(save!=null) {
